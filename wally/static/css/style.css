@@ -1,0 +1,61 @@
+input[type="file"] {
+    display:none;
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.drag-area {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.0rem;
+    font-width: bold;
+    font-color: #777777;
+}
+
+.canvas-fld {
+    background-image: url("/static/images/upload.png");
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 583px;
+    padding-top: 180px;
+}
+
+.target-fld {
+    top:0px;
+    background-image: url("/static/images/upload-s.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 290px;
+    padding-top: 150px;
+    margin: 0 auto;
+}
+
+.submit-fld {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#btn {
+    float: none;
+}
+
+.canvas-img, .ans-img {
+    height: 380px;
+    /*width: 583px;*/
+    display: none;
+}
+.target-img {
+    height: 250px;
+    display: none;
+}
+
